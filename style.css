@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 2rem;
+    background-color: whitesmoke;
+}
+.container {
+    /* display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(auto-fit, 1fr) ;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    /* margin: 15px; */
+    background-color: white;
+    padding: 0.2rem;
+}
+.head {
+    background: linear-gradient(to bottom, silver 50%, whitesmoke 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.html {width: 70%; background-color: darkgray; text-transform: uppercase;}
+
+.css {width: 60%; background-color: darkgray; text-transform: uppercase;} 
+
+.js {width: 30%; background-color: darkgray; text-transform: uppercase;}
+
+.php {width: 30%; background-color: darkgray; text-transform: uppercase;}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+@media screen and (min-width: 768px) {
+    .main-container {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: repeat(auto-fit, minmax(240px, 1fr)) ;
+    
+    }
+}
